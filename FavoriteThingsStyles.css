@@ -19,6 +19,29 @@ Body{
   top: 50px;
   width: 400px;
   margin: 0 auto;
+  
+  .navigation ul{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.navigation li{
+  font-family:helvetica;
+  font-weight: 100;
+  text-align: center;
+  letter-spacing: 2px;
+  position: center;
+  padding: 20px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
 }
 
 .grid {
