@@ -43,7 +43,6 @@ a:link {
 a:hover {
     text-decoration: underline;
 }
-}
 
 .grid {
   text-align: center;
@@ -58,6 +57,7 @@ a:hover {
   max-width: 150px;
   max-height: 150px;
   text-align: center;
+  justify-items: center;
 }
 
 .overlay {
@@ -119,4 +119,18 @@ a:hover {
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+}
+
+#muzziefaves .content{
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+  margin: 0 auto;
+  width: 600px;
+  height: auto;
+}
+
+#muzziefaves{
+  background-color: #efefef;
+  padding: 30px;
 }
