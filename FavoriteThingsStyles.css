@@ -50,6 +50,7 @@ a:hover {
   margin-right: auto;
   border-spacing: 50px;
   border-collapse: separate;
+  justify-items: center;
 }
 
 .grid td {
@@ -57,7 +58,6 @@ a:hover {
   max-width: 150px;
   max-height: 150px;
   text-align: center;
-  justify-items: center;
 }
 
 .overlay {
