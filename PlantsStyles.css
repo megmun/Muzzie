@@ -1,0 +1,108 @@
+Body{
+  Font-family: Georgia;
+  Background-color: white;
+  Color: black;
+  text-align:center;
+}
+#banner{
+  background-image: url("https://i.imgur.com/84Y1AA3.jpg");
+  background-size: cover;
+  background-position: bottom center;
+  height: 700px;
+  width: 100%;
+  
+}
+#banner .content{
+  text-align:center;
+  color:black;
+  border: 3px solid black;
+  position: relative;
+  top: 50px;
+  width: 400px;
+  margin: 0 auto;
+  }
+  
+  .navigation ul{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.navigation li{
+  font-family:helvetica;
+  font-weight: 100;
+  text-align: center;
+  letter-spacing: 2px;
+  position: center;
+  padding: 20px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#plants .content{
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+  margin: 0 auto;
+  width: 600px;
+  height: auto;
+}
+
+#plants{
+  background-color: #efefef;
+  padding: 30px;
+}
+
+.grid {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 50px;
+  border-collapse: separate;
+}
+
+.grid td {
+  position: relative;
+  max-width: 150px;
+  max-height: 150px;
+  text-align: center;
+  justify-items: center;
+}
+
+h1 .poisonplants{
+  font-size:12px;
+}
+
+.overlay{
+  position:absolute;
+  top:0;
+  right:0;
+  left:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+  opacity:0;
+  transition: opacity .5s ease;
+  background-color:white;
+  z-index:1000;
+}
+
+.grid td:hover .overlay{
+  opacity:1;
+}
+
+.text{
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);  
+  text-align:center;
+}
